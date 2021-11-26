@@ -22,10 +22,16 @@ footer ul{
 a{
     text-decoration: none;
     color: #E5E7EB;
+    border-style: solid;
+    border-width : 2px;
+    padding : 20px;
+    border-color : #E5E7EB;
+    border-radius: 50px;
 }
 
 a:hover{
     color: orange;
+    border-color: orange;
 }
 
 #logo{
