@@ -1,3 +1,5 @@
+/********** Misc Changes **********/
+
 * {
     margin: 0;
     padding: 0;
@@ -13,7 +15,7 @@ header,
     font-family: 'Roboto', sans-serif;
 }
 
-/********** Header ***********/
+/********** Header **********/
 
 header {
     flex-direction: row;
@@ -57,9 +59,9 @@ a:hover {
     width: auto;
 }
 
-/********** Section 1 ***********/
+/********** Section 1 **********/
 
-#Section1{
+#Section1 {
     background-color: #1f2937;
     justify-content: center;
     align-items: center;
@@ -70,13 +72,13 @@ a:hover {
     color: #E5E7EB;
 }
 
-#Section1 h2{
+#Section1 h2 {
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
 }
 
-#Section1_A{
+#Section1_A {
     width: 20%;
     display: flex;
     flex-direction: column;
@@ -84,7 +86,7 @@ a:hover {
     gap: 15px;
 }
 
-#Section1_A button{
+#Section1_A button {
     text-decoration: none;
     border-style: solid;
     border-width: 2px;
@@ -94,11 +96,13 @@ a:hover {
     font-size: 30px;
 }
 
-#Section1_A button:hover{
+#Section1_A button:hover {
     background-color: orange;
 }
 
-#scoping_img{
+#scoping_img {
     width: 30%;
     align-self: flex-end;
 }
+
+/********** Section2 **********/
