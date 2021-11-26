@@ -1,19 +1,26 @@
 * { margin:0; padding:0; box-sizing:border-box; }
 
-footer,#Section1,#Section2,#Section3,#Section4{
+header,#Section1,#Section2,#Section3,#Section4{
     display: flex;
     font-family: 'Roboto', sans-serif;
 }
 
-footer{
+header{
     flex-direction: row;
     justify-content: space-around;
     background-color: #1f2937;
     color: #E5E7EB;
     font-size: 18px;
+    height:100px;
+    align-items: center;
 }
 
-footer ul{
+h1{
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+header ul{
     display: flex;
     list-style: none;
     gap: 16px;
