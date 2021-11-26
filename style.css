@@ -13,6 +13,8 @@ header,
     font-family: 'Roboto', sans-serif;
 }
 
+/********** Header ***********/
+
 header {
     flex-direction: row;
     justify-content: space-around;
@@ -24,7 +26,7 @@ header {
 }
 
 h1 {
-    font-size: 24px;
+    font-size: 48px;
     color: #f9faf8;
 }
 
@@ -53,4 +55,50 @@ a:hover {
 #logo {
     height: 200px;
     width: auto;
+}
+
+/********** Section 1 ***********/
+
+#Section1{
+    background-color: #1f2937;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+#Section1 h2{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+#Section1_A{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+#Section1_A button{
+    text-decoration: none;
+    border-style: solid;
+    border-width: 2px;
+    padding: 10px;
+    border-color: #E5E7EB;
+    border-radius: 20px;
+    font-size: 30px;
+}
+
+#Section1_A button:hover{
+    background-color: orange;
+}
+
+#scoping_img{
+    width: 30%;
+    align-self: flex-end;
 }
