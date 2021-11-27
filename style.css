@@ -23,8 +23,11 @@ header {
     background-color: #1f2937;
     color: #E5E7EB;
     font-size: 18px;
-    height: 100px;
+    height: 150px;
     align-items: center;
+    border-bottom: #f9faf8;
+    border-bottom-style:dashed;
+    border-bottom-width: 3px;
 }
 
 h1 {
@@ -107,8 +110,41 @@ a:hover {
 
 /********** Section2 **********/
 
+#Section2{
+    padding-top: 50px;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+#Section2 h3{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 1%;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
 #Section2 img{
+    display: flex;
+    align-self: center;
     height: 250px;
     width: 250px;
     object-fit: cover;
+    border: orange;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 5px;
+    margin-bottom: 5%;
+}
+
+#Section2 div{
+    display: flex;
+    text-align: center;
+    flex-basis: 250px;
+    height:400px;
+    flex-flow: column nowrap;
+    align-self: flex-end;
+    padding: 5px;
+    margin-bottom: 100px;
 }
