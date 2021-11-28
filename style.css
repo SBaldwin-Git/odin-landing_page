@@ -10,7 +10,8 @@ header,
 #Section1,
 #Section2,
 #Section3,
-#Section4 {
+#Section4,
+footer {
     display: flex;
     font-family: 'Roboto', sans-serif;
 }
@@ -26,7 +27,7 @@ header {
     height: 150px;
     align-items: center;
     border-bottom: #f9faf8;
-    border-bottom-style:dashed;
+    border-bottom-style: dashed;
     border-bottom-width: 3px;
 }
 
@@ -101,6 +102,7 @@ a:hover {
 
 #Section1_A button:hover {
     background-color: orange;
+    cursor: pointer;
 }
 
 #scoping_img {
@@ -110,14 +112,14 @@ a:hover {
 
 /********** Section2 **********/
 
-#Section2{
+#Section2 {
     padding-top: 50px;
     flex-flow: row wrap;
     justify-content: center;
     gap: 30px;
 }
 
-#Section2 h3{
+#Section2 h3 {
     text-align: center;
     width: 100%;
     margin-bottom: 1%;
@@ -125,7 +127,7 @@ a:hover {
     font-weight: bolder;
 }
 
-#Section2 img{
+#Section2 img {
     display: flex;
     align-self: center;
     height: 250px;
@@ -138,11 +140,11 @@ a:hover {
     margin-bottom: 5%;
 }
 
-#Section2 div{
+#Section2 div {
     display: flex;
     text-align: center;
     flex-basis: 250px;
-    height:400px;
+    height: 400px;
     flex-flow: column nowrap;
     align-self: flex-end;
     padding: 5px;
@@ -151,7 +153,7 @@ a:hover {
 
 /********** Section3 **********/
 
-#Section3{
+#Section3 {
     padding-top: 50px;
     padding-bottom: 50px;
     flex-flow: column nowrap;
@@ -161,7 +163,7 @@ a:hover {
     gap: 40px;
 }
 
-#quote{
+#quote {
     width: 40%;
     font-size: 36px;
     font-weight: lighter;
@@ -169,7 +171,7 @@ a:hover {
     color: #1f2937;
 }
 
-#thor{
+#thor {
     width: 40%;
     text-align: right;
     font-weight: bolder;
@@ -178,12 +180,57 @@ a:hover {
 
 /********** Section4 **********/
 
-#Section4{
+#Section4 {
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
 
+#container {
+    display: flex;
+    flex-flow: row;
+    background-color: orange;
+    padding: 40px;
+    width: 50%;
+    border-radius: 20px;
+}
+
+#snektext {
+    display: flex;
+    flex-flow: column;
+    flex-basis: 90%;
+    gap: 15px;
+}
+
+#snektext h4 {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#container button {
+    width: 30%;
+    height: auto;
+    text-decoration: none;
+    border-style: solid;
+    border-width: 2px;
+    padding: 10px;
+    border-color: #E5E7EB;
+    border-radius: 20px;
+    font-size: 30px;
+}
+
+#container button:hover{
+    cursor: pointer;
 }
 
 /********** Footer **********/
 
-footer{
-    
+footer {
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: #E5E7EB;
+    font-weight: lighter;
+    font-size: 18px;
 }
