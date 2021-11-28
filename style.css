@@ -68,6 +68,7 @@ a:hover {
 /********** Section 1 **********/
 
 #Section1 {
+    height: 500px;
     background-color: #1f2937;
     justify-content: center;
     align-items: center;
@@ -109,7 +110,6 @@ a:hover {
 
 #scoping_img {
     width: 30%;
-    align-self: flex-end;
 }
 
 /********** Section2 **********/
